@@ -1,0 +1,4 @@
+@ECHO OFF
+XCOPY G: C:\TXY_PENDRIVE_G /s /c /d /e /h /i /r /y
+ATTRIB +G C:\TXY_PENDRIVE_G
+EXIT

